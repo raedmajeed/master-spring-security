@@ -22,6 +22,7 @@ public class Controller {
     @GetMapping("/private")
     @ResponseBody
     public String privatePage(Authentication authentication) {
+        System.out.println("raed abdul majeed");
         return getname(authentication);
     }
 
